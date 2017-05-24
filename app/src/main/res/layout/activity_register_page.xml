@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registerpage_style"
+    tools:context="com.app.pets.papp.RegisterPage">
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@android:color/background_light"-->
+        <!--android:padding="@dimen/textboxPadding"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textStyle="italic"-->
+        <!--android:layout_below="@+id/imageView"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/works"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="32dp"-->
+        <!--android:background="@android:color/transparent"-->
+        <!--android:elevation="11dp"-->
+        <!--android:padding="@dimen/textboxPadding"-->
+        <!--android:text="TextView"-->
+        <!--android:textColor="@android:color/background_dark"-->
+        <!--android:textSize="24sp"-->
+        <!--android:textStyle="bold|italic"-->
+        <!--android:theme="@style/Base.Theme.AppCompat" />-->
+
+    <Button
+        android:id="@+id/signinbutton"
+        android:layout_width="@android:dimen/notification_large_icon_height"
+        android:layout_height="30dp"
+        android:alpha=".5"
+        android:background="@color/backgroundcenter"
+        android:fontFamily="cursive"
+        android:text="@string/signin"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="italic"
+        android:layout_below="@+id/password"
+        android:layout_alignRight="@+id/password"
+        android:layout_alignEnd="@+id/password" />
+
+    <Button
+        android:id="@+id/registerbutton"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:alpha=".5"
+        android:background="@color/backgroundcenter"
+        android:elevation="21dp"
+        android:fontFamily="cursive"
+        android:text="@string/register"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/textboxPadding"
+        app:srcCompat="@drawable/catanddog"
+        android:layout_marginTop="61dp"
+        android:layout_below="@+id/registerbutton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:fontFamily="cursive"
+        android:text="Papp"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="50sp"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="38dp"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Title"
+        android:layout_alignStart="@+id/Title"
+        android:layout_below="@+id/Title"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:fontFamily="cursive"
+        android:text="for your pets."
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/petname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:drawableLeft="?android:attr/fingerprintAuthDrawable"
+        android:ems="10"
+        android:hint="PetName"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/imageView"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignStart="@+id/password" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/petname"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@android:drawable/ic_secure"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember me"
+        android:textSize="10sp"
+        android:layout_below="@+id/password"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignStart="@+id/password" />
+
+</RelativeLayout>

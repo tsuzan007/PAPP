@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PAPP</string>
+    <string name="our_moto">This is the ultimate app for your dog. Set up your dog\'s profile and allow others to see your dog\'s
+        behavior. You might just prevent someone from getting bit or licked. Also find pet sitters close to your with a tap of a button.</string>
+
+    <string name="how_it_works">This is how it works</string>
+    <string name="our_moto2">Connect us</string>
+    <string name="signin">Signin</string>
+    <string name="register">Register</string>
+</resources>
