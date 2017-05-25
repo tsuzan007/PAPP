@@ -7,6 +7,8 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.app.pets.papp.View.HomeActivity;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -24,8 +26,8 @@ public class RegisterPage extends AppCompatActivity {
     @BindView(R.id.signinbutton)
     Button signin;
 
-    @BindView(R.id.registerbutton)
-    Button register;
+    @BindView(R.id.register)
+    TextView register;
 
 
     @Override

@@ -39,32 +39,16 @@
         android:id="@+id/signinbutton"
         android:layout_width="@android:dimen/notification_large_icon_height"
         android:layout_height="30dp"
-        android:alpha=".5"
+        android:alpha=".8"
         android:background="@color/backgroundcenter"
         android:fontFamily="cursive"
         android:text="@string/signin"
         android:textAllCaps="false"
         android:textColor="@android:color/background_dark"
         android:textStyle="italic"
-        android:layout_below="@+id/password"
+        android:layout_alignBottom="@+id/checkBox2"
         android:layout_alignRight="@+id/password"
         android:layout_alignEnd="@+id/password" />
-
-    <Button
-        android:id="@+id/registerbutton"
-        android:layout_width="75dp"
-        android:layout_height="30dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:alpha=".5"
-        android:background="@color/backgroundcenter"
-        android:elevation="21dp"
-        android:fontFamily="cursive"
-        android:text="@string/register"
-        android:textAllCaps="false"
-        android:textColor="@android:color/background_dark"
-        android:textStyle="italic" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -81,33 +65,34 @@
         android:id="@+id/Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/checkBox2"
+        android:layout_alignRight="@+id/checkBox2"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
         android:layout_marginTop="26dp"
+        android:elevation="12dp"
         android:fontFamily="cursive"
-        android:text="Papp"
+        android:text="Petsbook"
         android:textAllCaps="false"
         android:textColor="@color/colorAccent"
         android:textSize="50sp"
-        android:textStyle="bold|italic"
-        android:layout_marginLeft="38dp"
-        android:layout_marginStart="38dp"
-        android:layout_alignTop="@+id/imageView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:textStyle="bold|italic" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/Title"
-        android:layout_alignStart="@+id/Title"
-        android:layout_below="@+id/Title"
-        android:layout_marginLeft="23dp"
-        android:layout_marginStart="23dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
         android:fontFamily="cursive"
         android:text="for your pets."
         android:textColor="@color/colorAccent"
         android:textSize="18sp"
-        android:textStyle="bold|italic" />
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/Title"
+        android:layout_alignLeft="@+id/Title"
+        android:layout_alignStart="@+id/Title" />
 
     <EditText
         android:id="@+id/petname"
@@ -141,6 +126,22 @@
         android:textSize="10sp"
         android:layout_below="@+id/password"
         android:layout_alignLeft="@+id/password"
-        android:layout_alignStart="@+id/password" />
+        android:layout_alignStart="@+id/password"
+        android:layout_marginTop="9dp" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="11dp"
+        android:fontFamily="cursive"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
 
 </RelativeLayout>

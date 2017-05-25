@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/a"
+        android:checked="false"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="askdjfnasd" />
+
+    <item
+        android:id="@+id/ba"
+        android:checked="false"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="lkjasdf" />
+
+    <item
+        android:id="@+id/ca"
+        android:checked="false"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="as,dfnas" />
+
+    <item
+        android:id="@+id/da"
+        android:checked="false"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="alksjdf" />
+    </group>
+
+    <item
+        android:id="@+id/asda"
+        android:checked="false"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="asdfasdf" />
+</menu>

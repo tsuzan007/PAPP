@@ -2,4 +2,5 @@
 <resources>
 
     <dimen name="textboxPadding">10dp</dimen>
+    <dimen name="layoutMargin">20dp</dimen>
 </resources>

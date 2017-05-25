@@ -6,4 +6,7 @@
     <color name="backgroundstart">#0b0b0b</color>
     <color name="backgroundcenter">#91868a</color>
     <color name="backgroundend">#d81a1417</color>
+    <color name="navigationviewstart">#000000</color>
+    <color name="navigationviewcenter">#534e50</color>
+    <color name="navigationviewend">#f3000000</color>
 </resources>
